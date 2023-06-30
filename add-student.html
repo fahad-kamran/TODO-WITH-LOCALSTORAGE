@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO WITH LOCALSTORAGE :: ADDSTUDENT</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="bg-dark text-white py-3 border-bottom">
+        <nav>
+            <div class="container-lg">
+                <a href="./index.html" class="text-white text-decoration-none me-3">Home</a>
+                <a href="./add-student.html" class="text-white text-decoration-none">Add Student</a>
+            </div>
+        </nav>
+    </header>
+    <main class="py-5">
+        <div class="container-lg">
+            <h3 class="mb-5">TODO WITH LOCALSTORAGE ADD STUDENT</h3>
+            <form onsubmit="addStudent(event)">
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="form-group">
+                            <label class="form-label">Name</label>
+                            <input type="text" placeholder="Enter Name..." id="stdName" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="form-group">
+                            <label class="form-label">Roll</label>
+                            <input type="text" placeholder="Enter Roll..." id="stdRoll" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" placeholder="Enter Email..." id="stdEmail" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="form-group">
+                            <label class="form-label">Class</label>
+                            <input type="text" placeholder="Enter Class..." id="stdClass" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="form-group">
+                            <label class="form-label">Subject</label>
+                            <input type="text" placeholder="Enter Subject..." id="stdSubject" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="bg-dark text-white py-3 border-top">
+        <div class="container-lg">
+            <p class="mb-0 text-center">Developed By <strong>Fahad Kamran</strong></p>
+        </div>
+    </footer>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
